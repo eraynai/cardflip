@@ -27,9 +27,13 @@ section div.split {
 
 section div.slides {
 	width: 500px;
-	height: 800px;
+	height: 750px;
 }
 
 section div.slides img {
-	width: 600px;
+	width: 500px;
+}
+
+section div.info {
+	max-width: 500px;
 }
