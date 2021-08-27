@@ -5,7 +5,7 @@
 
 body {
 	font-family: PT Root;
-	font-size: 16px;
+	font-size: 24px;
 	line-height: 1.5;
 
 	background-color: #000;
@@ -16,6 +16,7 @@ header {
 	position: fixed;
 	top: 24px;
 	left: 24px;
+	z-index: 1;
 }
 
 section {
@@ -37,12 +38,24 @@ section div.split:first-child {
 section div.slides {
 	width: 500px;
 	height: 750px;
+	background-color: aqua;
+	position: relative;
 }
 
 section div.slides img {
+	position: absolute;
 	width: 500px;
+	top: 0;
+	left: 0;
 }
 
 section div.info {
 	max-width: 500px;
+}
+
+section h2 {
+	font-size: 32px;
+}
+section p {
+	margin: 32px 0 0 0;
 }
