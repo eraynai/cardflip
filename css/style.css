@@ -1,5 +1,10 @@
+@font-face {
+	font-family: PT Root;
+	src: url(../ptroot.woff2);
+}
+
 body {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: PT Root;
 	font-size: 16px;
 	line-height: 1.5;
 
@@ -23,6 +28,10 @@ section div.split {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+section div.split:first-child {
+	background-color: #111;
 }
 
 section div.slides {
