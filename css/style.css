@@ -12,11 +12,27 @@ body {
 	color: #fff;
 }
 
+header h1,
+header h2 {
+	display: flex;
+}
+
 header {
 	position: fixed;
-	top: 24px;
-	left: 24px;
+	top: 8px;
+	left: 0;
 	z-index: 1;
+	background-color: yellow;
+	width: 100%;
+	overflow: hidden;
+}
+
+h1 span,
+h2 span {
+	background-color: red;
+	width: 400px;
+	display: inline-block;
+	flex: 0 0 auto;
 }
 
 section {
